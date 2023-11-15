@@ -1,6 +1,6 @@
 # Análisis de Datos Meteorológicos para Determinar la Zona Horaria
 
-Este repositorio contiene una solución de análisis de datos meteorológicos desarrollada en Python. La aplicación se utiliza para determinar la zona horaria de las estaciones meteorológicas en tiempo real.
+Este repositorio contiene una solución de análisis de datos meteorológicos desarrollada en Python. La aplicación se utiliza para determinar la zona horaria de las estaciones meteorológicas en función a sus registros del dia anterior de su ejecución.
 
 ## Descripción
 
@@ -14,7 +14,7 @@ El objetivo principal de esta aplicación es recopilar y analizar datos proceden
 
 4. **Análisis de Zona Horaria**: La aplicación realiza un análisis de las horas en las que se registran las temperaturas máximas y mínimas, comparándolas con franjas horarias típicas para determinar con precisión la zona horaria correspondiente, ya sea la hora local o UTC.
 
-5. **Registro y Almacenamiento de Información**: Se registra y almacena la información de la estación, las temperaturas máximas y mínimas y la zona horaria detectada.
+5. **Registro y Almacenamiento de Información**: Se registra y almacena la información de la estación y la zona horaria detectada.
 
 ## Configuración de Base de Datos
 
